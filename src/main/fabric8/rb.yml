@@ -1,0 +1,9 @@
+apiVersion: "v1"
+kind: "RoleBinding"
+metadata:
+  name: "camel-master-fuse7"
+roleRef:
+  name: "edit"
+subjects:
+  - kind: "ServiceAccount"
+    name: "camel-master-fuse7"
